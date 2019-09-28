@@ -1,9 +1,8 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
-disqus_shortname: stackproblems
+title: coolomina.dev
+description: This is me!
+author: Alejandro Colomina
+github: https://github.com/Coolomina
+about: "I'm a SRE (Super Rad Engineer) at Flywire"
 google_analytics: UA-XXXXXXXX-Y
 
 enableTags: true
@@ -15,16 +14,12 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
     - icon: fa-twitter
-      link: "#"
+      link: "https://twitter.com/coolomina"
     - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "https://www.linkedin.com/in/coolomina/"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/Coolomina"
 
 share:
   twitter_username: github.io
@@ -38,7 +33,7 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://coolomina.dev"
 baseurl: ""
 paginate: 20
 per_page: 20
@@ -54,3 +49,13 @@ compress_html:
   endings: all
   ignore:
     envs: ['development']
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - docker-compose.yml
+  - Dockerfile
