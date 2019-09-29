@@ -27,5 +27,7 @@ RUN addgroup -g 1000 -S ${USER} && \
 
 USER ${USER}
 
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY nginx.conf /tmp/nginx.conf.tpl
 COPY --from=release-build --chown=deploy:deploy /app/_site /usr/share/nginx/html/
+
+CMD ["./cmd.sh"]
