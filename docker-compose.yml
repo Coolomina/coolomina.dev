@@ -3,6 +3,7 @@ services:
   web:
     build:
       context: .
+      target: development
     volumes:
       - ${PWD}:/app
     ports:
