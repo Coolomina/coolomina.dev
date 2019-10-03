@@ -42,7 +42,8 @@ markdown: kramdown
 plugins:
   - jekyll-paginate
   - jekyll-gist
-
+future: true
+highlighter: rouge
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
