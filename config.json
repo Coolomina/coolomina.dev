@@ -1,20 +1,20 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
+  "readmeUrl": "https://raw.githubusercontent.com/Coolomina/coolomina.dev/master/public/README.md",
   "title": "coolomina.dev",
   "name": "Alejandro Colomina",
-  "ascii": "LiveTarm",
+  "ascii": "Coolomina",
   "social": {
     "github": "Coolomina",
     "linkedin": "coolomina"
   },
-  "email": "contact@email.com",
+  "email": "alejandro.colomina@gmail.com",
   "ps1_hostname": "coolomina.dev",
   "ps1_username": "guest",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "repo": "https://github.com/Coolomina/coolomina.dev",
+  "resume_url": "https://github.com/Coolomina/coolomina.dev/blob/master/public/cv.pdf",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+    "paypal": "not_implemented",
+    "patreon": "not_implemented"
   },
   "colors": {
     "light": {
